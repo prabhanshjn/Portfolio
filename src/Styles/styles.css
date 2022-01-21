@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.i{
+    display: flex;
+    height: 100vh;
+}
+
+.i-left{
+    padding-top: 100px;
+    flex: 1;
+    display: flex;
+ 
+}
+
+
+.i-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.i-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    flex-direction: column;
+}
+
+.i-intro{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.i-name{
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+
+.i-title{
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+
+
+}
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{  transform: translateY(-100px);
+    }
+    75%{        transform: translateY(-150px);
+    }
+    100%{        transform: translateY(-200px);
+    }
+
+    
+}
+.i-title-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color:  rgb(165, 130, 99);
+    /*background-color: rgb(200, 68, 68);*/
+    display: flex;
+    align-items: center;
+}
+
+.i-image{
+    width: 40%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 7px solid grey;
+    position: absolute;
+}
+
+.i-bg{
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 39% 100%, 0 48%);
+    background-color: rgba(212, 179, 101, 0.246);
+    width:  100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+.i-desc{
+    margin-top: 50px;
+
+}
+
+.social-login{
+    margin-top: 50px;
+    
+    
+}
+
+.social-pic{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+
+.social-pic-1{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+
+.sectionsa{
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+}
+
+.about-heading{
+    padding-top: 100px;
+
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.section-1{
+    padding-left: 100px;
+    padding-top: 100px;
+
+    width: 20%;
+    height: 100vh;
+
+}
+
+ 
+.section-2{
+    padding-top: 100px;
+    padding-left: 100px;
+
+
+    width: 80%;
+    height: 100vh;
+
+
+}
+.slider{
+    max-height: 500px;
+    overflow-y: scroll;
+    
+}
+.slider-h2{
+    position: relative;
+
+   
+    padding-bottom: 20px;
+}
+
+
+.slider-p{
+    align-items: center;
+    text-align: left;
+    padding-right: 20px;
+}
+
+
+
+
+
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 40px;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+
+.iconDetails{
+    margin-left:2%;
+    float:left; 
+    height:50px;
+    width:50px; 
+    margin-right: 40px;
+}
+ 
+
+.skillLogo{
+    padding-right: 10px;
+}
+.skillName{
+    position: relative;
+    bottom: 25px;
+    width: 1000px;
+}
+.skillRating{
+    position: relative;
+    left: 45px;
+    bottom: 25px;
+}
+.skill-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-section-1{
+    position: relative;
+    width: 50%;
+}
+.space-between{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skill-section-2{
+    position: relative;
+    width: 50%;
+}
+
+
+
