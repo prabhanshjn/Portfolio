@@ -8,6 +8,9 @@ export default function Contact() {
     <div className = "container">
 
     <form action="https://formsubmit.co/prabhanshjain@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false"/>
+
+
     <div className="form-group">
     <input type="hidden" name="_subject" value="New submission!"/>
 
